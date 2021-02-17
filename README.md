@@ -2,13 +2,13 @@
 # Models will be published.
 # Training the models
 
-Optional Arguments:
---attack is the attack the last model will be attacked with
---pgd_iters if attack is 1 (PGD) number of PGD iterations
---epsilon attack epsilon
---step_size attack step size
-  Perturbations:
-  If a .npy file will be specified in --pert_file it will train with it
+Optional Arguments:  
+--attack is the attack the last model will be attacked with  
+--pgd_iters if attack is 1 (PGD) number of PGD iterations  
+--epsilon attack epsilon  
+--step_size attack step size  
+  Perturbations:  
+  If a .npy file will be specified in --pert_file it will train with it  
   If not, a seed (can also be specified with --seed or a random one is chosen) is used and they are sampled from a uniform distribution.
 # Training MNIST
 Run the following to train the model:
